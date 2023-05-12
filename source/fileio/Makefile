@@ -1,12 +1,17 @@
 include  ../Makefile.inc
 
-GEN_EXE = copy
-EXE =${GEN_EXE}
+GEN_EXE = copy seek_io  bad_exclusive_open  t_readv atomic_append  multi_descriptors\
+	  t_truncate
 
-all: ${GEN_EXE}
+LINUX_EXE = large_file
 
+EXE =${GEN_EXE} ${LINUX_EXE}
+
+all: ${EXE}
+
+allgen:  ${GEN_EXE}
 clean:
-	${RM} ${EXE}*.o
+	${RM} ${EXE} *.o
 
 showall:
 	@echo ${EXE}

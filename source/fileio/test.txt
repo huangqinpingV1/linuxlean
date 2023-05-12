@@ -1,0 +1,17 @@
+total 312
+drwxr-x--- 2 lighthouse lighthouse  4096 May 12 16:56 .
+drwxr-x--- 6 lighthouse lighthouse  4096 May 12 16:54 ..
+-rwxr-x--- 1 lighthouse lighthouse 35720 May 12 16:54 atomic_append
+-rw-r----- 1 lighthouse lighthouse   684 May 12 14:31 atomic_append.c
+-rwxr-x--- 1 lighthouse lighthouse 29160 May 12 16:54 bad_exclusive_open
+-rw-r----- 1 lighthouse lighthouse  2602 Apr 25 17:22 bad_exclusive_open.c
+-rwxr-x--- 1 lighthouse lighthouse 29368 May 12 16:54 copy
+-rw-r----- 1 lighthouse lighthouse  1132 Apr 24 18:15 copy.c
+-rwxr-x--- 1 lighthouse lighthouse 29088 May 12 16:54 large_file
+-rw-r----- 1 lighthouse lighthouse   490 May 12 12:07 large_file.c
+-rw-r----- 1 lighthouse lighthouse   276 May 12 16:52 Makefile
+-rwxr-x--- 1 lighthouse lighthouse 29240 May 12 16:54 multi_descriptors
+-rw-r----- 1 lighthouse lighthouse   874 May 12 16:31 multi_descriptors.c
+-rwxr-x--- 1 lighthouse lighthouse 36488 May 12 16:54 seek_io
+-rw-r----- 1 lighthouse lighthouse  1564 Apr 25 17:02 seek_io.c
+-rw-
